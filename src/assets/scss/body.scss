@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    height: 8000px;
+    .body__backgroung-top {
+        position: absolute;
+        z-index: -1;
+        width: 1441px;
+        top: 0;
+        height: 3547px;
+    }
+    .body__backgroung-center {
+        position: absolute;
+        width: 1441px;
+        height: 3969px;
+        top: 810%;
+    }
+    .body__background-bottom {
+        width: 1440px;
+        height: 487px;
+        background: rgba(161, 47, 177, 1);
+        position: absolute;
+        top: 1717%;
+        z-index: -1;
+    }
+}
