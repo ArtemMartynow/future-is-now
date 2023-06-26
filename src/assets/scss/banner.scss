@@ -20,12 +20,18 @@
         .banner__title {
             font-size: 33px;
             letter-spacing: 5px;
+            height: 23px;
+            line-height: 23px;
+            margin: 0;
+            padding-top: 63px;
+            padding-bottom: 34px;
         }
         .banner__subtitle {
             font-size: 23px;
             font-weight: 100;
             height: 69px;
             line-height: 24px;
+            margin: 0;
         }
     }
 }
