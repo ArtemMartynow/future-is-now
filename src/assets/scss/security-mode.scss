@@ -1,0 +1,76 @@
+.security-mode {
+    color: #fff;
+    margin-top: 108px;
+    padding: 0 101px;
+    .security-mode__title {
+        font-size: 58px;
+        width: 770px;
+        height: 43px;
+        font-family: 'Roboto', sans-serif;
+        margin: 0 auto;
+        line-height: 44px;
+        word-spacing: 8px;
+        letter-spacing: 9px;
+        font-weight: 400;
+    }
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 94px;
+        text-align: center;
+        .cards__card {
+            background: rgb(215,138,195);
+            background: linear-gradient(0deg, rgba(215,138,195,1) 0%, rgba(78,76,179,1) 22%, rgba(28,54,174,1) 32%, rgba(13,47,172,1) 42%);
+            width: 339px;
+            height: 595px;
+            border: 3px solid rgba(255, 255, 255, 0.6);
+            border-radius: 30px;
+            .cards__img_type-a {
+                margin-top: 54px;
+                margin-bottom: 17px;
+            }
+            .cards__img_type-b {
+                margin-top: 80px;
+                margin-bottom: 53px;
+            }
+            .cards__img_type-c {
+                margin-top: 52px;
+                margin-bottom: 25px;
+            }
+            .cards__title {
+                font-size: 35px;
+                height: 25px;
+                font-family: 'Space Grotesk', sans-serif;
+                line-height: 28px;
+                letter-spacing: 6px;
+                margin: 0;
+            }
+            .cards__subtitle {
+                width: 280px;
+                height: 60px;
+                font-size: 17px;
+                font-family: 'Roboto', sans-serif;
+                text-align: left;
+                margin: 0 auto;
+                padding-top: 27px;
+            }
+            .cards__btn {
+                width: 149px;
+                height: 40px;
+                font-size: 16px;
+                margin-top: 37px;
+            }
+        }
+    }
+    .security-mode__subtitle {
+        width: 1027px;
+        height: 89px;
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 125px;
+        padding-bottom: 346px;
+    }
+}
