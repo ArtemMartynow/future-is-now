@@ -6,20 +6,21 @@ body {
         z-index: -1;
         width: 1440px;
         top: 0;
-        height: 3547px;
+        height: 3591px;
     }
     .body__backgroung-center {
         position: absolute;
         width: 1440px;
         height: 3969px;
-        top: 810%;
+        top: 801%;
+        z-index: -1;
     }
     .body__background-bottom {
         width: 1440px;
-        height: 487px;
+        height: 442px;
         background: rgba(161, 47, 177, 1);
         position: absolute;
-        top: 1717%;
+        top: 1687%;
         z-index: -1;
     }
     .text {
