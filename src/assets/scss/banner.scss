@@ -1,0 +1,31 @@
+.banner {
+    background: rgb(172,13,130);
+    background: linear-gradient(0deg, rgba(172,13,130,1) 11%, rgba(215,138,195,1) 53%, rgba(204,107,179,1) 70%, rgba(196,85,167,1) 79%, rgba(190,68,158,1) 89%, rgba(184,50,149,1) 94%, rgba(172,13,130,1) 98%);
+    width: 1248px;
+    height: 544px;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    border-radius: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: end;
+    padding-left: 48px;
+    padding-right: 46px;
+    .banner__info {
+        width: 363px;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 101px;
+        .banner__title {
+            font-size: 33px;
+            letter-spacing: 5px;
+        }
+        .banner__subtitle {
+            font-size: 23px;
+            font-weight: 100;
+            height: 69px;
+            line-height: 24px;
+        }
+    }
+}
