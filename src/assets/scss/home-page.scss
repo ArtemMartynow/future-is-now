@@ -1,0 +1,32 @@
+.home-page {
+    height: 546px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin: 93px 155px 179px 135px;
+    .home-page__content {
+        .home-page__title {
+            font-size: 104px;
+            font-family: 'Space Grotesk', sans-serif;
+            width: 504px;
+            height: 172px;
+            word-spacing: 10px;
+            line-height: 89px;
+            letter-spacing: 6px;
+            margin: 0;
+        }
+        .home-page__subtitle {
+            font-size: 58px;
+            font-weight: 100;
+            margin: 21px 0px 43px;
+            line-height: 53px;
+        }
+        .home-page__text {
+            font-size: 26px;
+            width: 455px;
+            font-weight: 100;
+            margin: 0;
+        }
+    }
+}
