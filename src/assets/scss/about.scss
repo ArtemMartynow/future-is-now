@@ -1,0 +1,58 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 809px;
+    margin: 0 auto;
+    .about__img {
+        width: 641px;
+        height: 766px;
+        margin-top: 43px;
+    }
+    .about__content {
+        color: #fff;
+        width: 509px;
+        height: 739px;
+        font-family: 'Roboto', sans-serif;
+        .about__title {
+            margin: 0;
+            font-size: 58px;
+            width: 357px;
+            height: 43px;
+            line-height: 44px;
+            letter-spacing: 10px;
+            word-spacing: 5px;
+        }
+        .about__subtitle {
+            margin-top: 114px;
+            margin-bottom: 86px;
+            font-size: 25px;
+            font-weight: 100;
+            word-spacing: 2px;
+            letter-spacing: 1px;
+        }
+        .about__links {
+            height: 118px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width: 200px;
+            display: flex;
+            flex-wrap: wrap;
+            .about__link {
+                display: flex;
+                align-items: center;
+                font-weight: 100;
+                .PhoneIcon {
+                    margin-right: 26px;
+                }
+                .EmailIcon {
+                    margin-right: 22px;
+                }
+                .AddressIcon {
+                    margin-right: 33px;
+                }
+            }
+        }
+    }
+}
