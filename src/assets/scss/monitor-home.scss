@@ -1,0 +1,100 @@
+.monitor-home {
+    color: #fff;
+    margin-top: 200px;
+    margin-bottom: 177px;
+    width: 1172px;
+    height: 1215px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 154px;
+    .monitor-home-content {
+        .monitor-home-content__title {
+            font-size: 58px;
+            font-family: 'Space Grotesk', sans-serif;
+            width: 404px;
+            height: 176px;
+            line-height: 61px;
+            letter-spacing: 10px;
+            margin: 0;
+        }
+        .monitor-home-content__list {
+            padding-left: 22px;
+            width: 500px;
+            height: 423px;
+            font-size: 25px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 100;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 103px 0;
+        }
+        .service {
+            width: 444px;
+            height: 303px;
+            font-family: 'Roboto', sans-serif;
+            .service__title {
+                font-size: 38px;
+                height: 108px;
+                text-align: center;
+                letter-spacing: 10px;
+                margin: 0;
+                span {
+                    font-size: 60px;
+                    letter-spacing: 28px;
+                }
+            }
+            .download {
+                text-align: center;
+                margin-top: 80px;
+                .download__title {
+                    font-size: 25px;
+                    font-weight: 100;
+                    height: 18px;
+                    line-height: 18px;
+                    margin: 0;
+                }
+            }
+            .download_btns {
+                width: 444px;
+                height: 68px;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 29px;
+                .download_btn {
+                    width: 204px;
+                    height: 63px;
+                    border: 3px solid #fff;
+                }
+            }
+        }
+    }
+    .monitor-home__img {
+        background: url(../images/8.png);
+        width: 558px;
+        height: 1073px;
+        position: relative;
+        z-index: 0;
+        text-align: center;
+        margin-top: 142px;
+        .monitor-home__img-logo {
+            margin-top: 155px;
+        }
+        .monitor-home__img-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 38px;
+            width: 215px;
+            height: 76px;
+            line-height: 42px;
+            letter-spacing: 11px;
+            margin: 0 auto;
+            padding-top: 62px;
+            padding-bottom: 415px;
+        }
+        .monitor-home__img-display {
+            position: absolute;
+            top: 26px;
+            left: calc(50% - 224px);
+            z-index: -1;
+        }
+    }
+}
