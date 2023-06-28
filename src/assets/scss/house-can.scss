@@ -1,0 +1,26 @@
+.house-can {
+    background: rgb(172,13,130);
+    background: linear-gradient(0deg, rgba(172,13,130,1) 11%, rgba(172,27,134,1) 16%, rgba(110,91,129,1) 48%, rgba(106,105,169,1) 65%, rgba(132,91,174,1) 71%, rgba(171,70,182,1) 88%, rgba(166,63,181,1) 100%, rgba(152,40,177,1) 100%);
+    color: #fff;
+    height: 693px;
+    .house-can__title {
+        width: 966px;
+        height: 40px;
+        font-size: 42px;
+        line-height: 34px;
+        margin: 0 auto;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        letter-spacing: 5px;
+        word-spacing: 10px;
+        padding-top: 71px;
+        padding-bottom: 65px;
+    }
+    .house-can__content {
+        width: 1297px;
+        height: 416px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+}
